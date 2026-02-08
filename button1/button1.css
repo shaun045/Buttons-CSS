@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: system-ui;
+}
+
+.btn {
+  position: relative;
+  border: none;
+  transition: all 0.5s;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.btn:hover {
+  background-color: #f6e05e;
+  box-shadow: 0 0 5px #f6e05e, 0 0 25px #f6e05e, 0 0 53px #f6e05e, 0 0 200px #f6e05e;
+  color: #333;
+}
