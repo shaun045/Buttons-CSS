@@ -20,9 +20,9 @@ body {
 }
 
 .navigation {
+  position: relative;
   width: 400px;
   height: 70px;
-  position: relative;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -39,8 +39,10 @@ body {
   position: relative;
   list-style: none;
   width: 70px;
-  height: 70px;
+  height: 25px;
   z-index: 1;
+  line-height: 0;
+  /* display: flex; */
 }
 
 .navigation ul li a {
@@ -52,10 +54,13 @@ body {
   width: 100%;
   text-align: center;
   font-weight: 500;
+
+  /* row-gap: 50px;
+  margin-top: 70px; */
 }
 
 
-.navigation ul li a .icon {
+.navigation ul li a .icon{
   position: relative;
   display: block;
   line-height: 75px;
@@ -67,5 +72,22 @@ body {
 
 
 .navigation ul li:hover a .icon {
-  transform: translateY(-50px);
+  transform: translateY(-35px);
+}
+
+
+.navigation ul li a .text {
+  color: var(--clr);
+  font-weight: 400;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+
+.navigation ul li:hover a .text {
+  opacity: 1;
+  transform: translateY(10px);
 }
