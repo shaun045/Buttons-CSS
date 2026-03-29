@@ -86,7 +86,6 @@ body {
   transform: translateY(20px);
 }
 
-
 .navigation ul li.active a .text {
   opacity: 1;
   transform: translateY(10px);
@@ -119,10 +118,30 @@ body {
   content: '';
   position: absolute;
   top: 50%;
-  left: -22px;
+  left: 62px;
   width: 20px;
   height: 20px;
   background: transparent;
   border-top-left-radius: 20px;
   box-shadow: 0px -10px 0 0 var(--clr);
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+  transform: translateX(calc(70px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+  transform: translateX(calc(70px * 1));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+  transform: translateX(calc(70px * 2));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator {
+  transform: translateX(calc(70px * 3));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator {
+  transform: translateX(calc(70px * 4));
 }
