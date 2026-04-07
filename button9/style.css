@@ -31,7 +31,19 @@ body {
 }
 
 .menu.active li {
-  transform: rotate(calc(360deg / 8 * var(--i))) translateX(0px);
+  transform: rotate(calc(360deg / 8 * var(--i))) 
+  translateX(0px);
+}
+
+.menu li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  color: var(--clr);
+  border: 2px solid var(--clr);
+  border-radius: 50%;
 }
 
 .menu .toggle {
@@ -48,8 +60,7 @@ body {
   cursor: pointer;
   z-index: 10000;
   font-size: 2em;
-  transition: transform;
-
+  transition: transform 1.25s;
 }
 
 .menu.active .toggle {
