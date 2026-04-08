@@ -47,11 +47,16 @@ body {
   border-radius: 50%;
   font-size: 1.5em;
   transform: rotate(calc(360deg / -8 * var(--i)));
+  transition: 1s;
 }
 
 .menu li a:hover {
+  transition: 0s;
   background-color: var(--clr);
   color: #333;
+  box-shadow: 0 0 10px var(--clr),
+    0 0 30px var(--clr),
+    0 0 50px var(--clr);
 }
 
 .menu .toggle {
