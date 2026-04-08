@@ -49,6 +49,11 @@ body {
   transform: rotate(calc(360deg / -8 * var(--i)));
 }
 
+.menu li a:hover {
+  background-color: var(--clr);
+  color: #333;
+}
+
 .menu .toggle {
   position: absolute;
   width: 60px;
