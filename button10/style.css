@@ -71,6 +71,7 @@ body {
 .sidebar li .icon,
 .sidebar li .text{
   color: var(--text-color);
+  transition: var(--tran-02);
 }
 
 
@@ -134,8 +135,21 @@ header .image-text .header-text{
 
 .sidebar li a{
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   text-decoration: none;
   border-radius: 6px;
+  transition: var(--tran-04);
+}
+
+
+.sidebar li a:hover {
+  background: var(--primary-color);
+}
+
+
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+  color: var(--sidebar-color);
 }
