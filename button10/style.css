@@ -155,7 +155,6 @@ header .image-text .header-text{
 }
 
 .sidebar .menu-bar {
-  background: red;
   height: calc(100% - 50px);
   display: flex;
   flex-direction: column;
@@ -182,7 +181,17 @@ header .image-text .header-text{
 }
 
 .menu-bar .mode .toggle-switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   min-width: 60px;
-  background: red;
+}
+
+.toggle-switch .switch {
+  position: relative;
+  height: 22px;
+  width: 44px;
+  border-radius: 25px;
+  background: var(--toggle-color);
 }
