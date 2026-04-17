@@ -195,3 +195,15 @@ header .image-text .header-text{
   border-radius: 25px;
   background: var(--toggle-color);
 }
+
+.switch::before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  background: var(--sidebar-color);
+}
