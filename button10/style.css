@@ -23,6 +23,7 @@
 body {
   height: 100vh;
   background: var(--body-color);
+  transition: var(--tran-03);
 }
 
 
@@ -44,6 +45,10 @@ body.dark {
   margin-left: 10px;
 }
 
+.sidebar.close .text{
+  opacity: 0;
+}
+
 .sidebar image {
   min-width: 60px;
   display: flex;
@@ -60,6 +65,10 @@ body.dark {
   width: 250px;
   padding: 10px 14px;
   background-color: var(--sidebar-color);
+}
+
+.sidebar.close {
+  width: 78px;
 }
 
 .sidebar li {
