@@ -206,4 +206,9 @@ header .image-text .header-text{
   left: 5px;
   transform: translateY(-50%);
   background: var(--sidebar-color);
+  transition: var(--tran-03);
+}
+
+body.dark .switch::before {
+  left: 25px;
 }
