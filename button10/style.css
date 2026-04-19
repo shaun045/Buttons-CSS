@@ -43,6 +43,9 @@ body.dark {
   font-weight: 500;
   color: var(--text-color);
   margin-left: 10px;
+  transition: var(--tran-04);
+  white-space: nowrap;
+  opacity: 1;
 }
 
 .sidebar.close .text{
