@@ -144,8 +144,12 @@ header .image-text .header-text{
   font-size: 20px;
 }
 
+body.dark .sidebar header .toggle {
+  color: var(--text-color);
+}
 .sidebar .search-box {
   background: var(--primary-color-light);
+  border-radius: 6px;
 }
 
 .search-box input {
@@ -187,6 +191,7 @@ header .image-text .header-text{
 
 .menu-bar .mode {
   position: relative;
+  border-radius: 6px;
   background: var(--primary-color-light);
 }
 
@@ -207,11 +212,13 @@ header .image-text .header-text{
 
 .menu-bar .mode .toggle-switch{
   position: absolute;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   min-width: 60px;
+  background: var(--primary-color-light);
 }
 
 .toggle-switch .switch {
