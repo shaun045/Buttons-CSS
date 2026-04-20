@@ -186,6 +186,7 @@ header .image-text .header-text{
 }
 
 .menu-bar .mode {
+  position: relative;
   background: var(--primary-color-light);
 }
 
@@ -205,6 +206,7 @@ header .image-text .header-text{
 }
 
 .menu-bar .mode .toggle-switch{
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
