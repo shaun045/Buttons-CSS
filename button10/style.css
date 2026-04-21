@@ -144,9 +144,18 @@ header .image-text .header-text{
   font-size: 20px;
 }
 
+.sidebar.close header .toggle {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+
 body.dark .sidebar header .toggle {
+  transform: rotate(180deg);
   color: var(--text-color);
 }
+
+
+
 .sidebar .search-box {
   background: var(--primary-color-light);
   border-radius: 6px;
@@ -181,6 +190,15 @@ body.dark .sidebar header .toggle {
 .sidebar li a:hover .text{
   color: var(--sidebar-color);
 }
+
+
+body.dark .sidebar li a:hover .icon,
+body.dark .sidebar li a:hover .text{
+  color: var(--text-color);
+}
+
+
+
 
 .sidebar .menu-bar {
   height: calc(100% - 50px);
