@@ -142,6 +142,7 @@ header .image-text .header-text{
   border-radius: 50%;
   color: var(--sidebar-color);
   font-size: 20px;
+  transition: var(--tran-03);
 }
 
 .sidebar.close header .toggle {
@@ -150,7 +151,7 @@ header .image-text .header-text{
 
 
 body.dark .sidebar header .toggle {
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
   color: var(--text-color);
 }
 
