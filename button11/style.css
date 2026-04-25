@@ -34,6 +34,20 @@ body {
   width: 250px;
   padding: 5px 1em;
   background-color: var(--base-clr);
+  border-right: 1px solid var(--line-clr);
+}
+
+#sidebar ul {
+  list-style-type: none;
+}
+
+#sidebar > ul > li:first-child {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  .logo{
+    font-weight: 600;
+  }
 }
 
 main {
