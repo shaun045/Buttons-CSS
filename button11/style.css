@@ -93,7 +93,15 @@ body {
   background-color: var(--hover-clr);
 }
 
+#sidebar .sub-menu{
+  overflow: hidden;
+  height: 0px;
+  transition: 300ms ease-in-out;
+}
 
+#sidebar .sub-menu.show{
+  height: auto;
+}
 
 main {
   padding: min(30px, 7%);
