@@ -96,13 +96,17 @@ body {
 }
 
 #sidebar .sub-menu{
-  overflow: hidden;
-  height: 0px;
+  display: grid;
+  grid-template-rows: 0fr;
   transition: 300ms ease-in-out;
 }
 
+#sidebar .sub-menu .div {
+  overflow: hidden;
+}
+
 #sidebar .sub-menu.show{
-  height: auto;
+  grid-template-rows: 1fr;
 }
 
 main {
