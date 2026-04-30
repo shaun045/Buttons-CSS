@@ -109,6 +109,14 @@ body {
   grid-template-rows: 1fr;
 }
 
+.dropdown-btn svg {
+  transition: All 0.3s ease-in-out;
+}
+
+.rotate svg:last-child {
+  rotate: 180deg;
+}
+
 main {
   padding: min(30px, 7%);
 }
