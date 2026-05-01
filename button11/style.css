@@ -39,6 +39,12 @@ body {
   position: sticky;
   top: 0;
   align-self: start;
+  transition: 300ms ease-in-out;
+}
+
+#sidebar.close {
+  padding: 5px;
+  width: 60px;
 }
 
 #sidebar ul {
