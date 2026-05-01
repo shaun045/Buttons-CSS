@@ -134,6 +134,10 @@ body {
   transition: rotate 150ms ease;
 }
 
+#toggle-btn:hover{
+  background-color: var(--hover-clr);
+}
+
 main {
   padding: min(30px, 7%);
 }
