@@ -185,6 +185,8 @@ main {
       display: grid;
       grid-auto-columns: 60px;
       grid-auto-flow: column;
+      align-items: center;
+      overflow-x: scroll;
     }
 
     ul li span, ul li:first-child, .dropdown-btn svg:last-child {
