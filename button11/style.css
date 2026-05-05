@@ -189,6 +189,10 @@ main {
       overflow-x: scroll;
     }
 
+    ul li{
+      height: 100%;
+    }
+
     ul li span, ul li:first-child, .dropdown-btn svg:last-child {
       display: none;
     }
