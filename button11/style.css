@@ -204,5 +204,17 @@ main {
     ul li span, ul li:first-child, .dropdown-btn svg:last-child {
       display: none;
     }
+
+    ul li .sub-menu.show{
+      position: fixed;
+      bottom: 60px;
+      left: 0;
+      box-sizing: border-box;
+      height: 60px;
+      width: 100%;
+      border-top: 1px solid var(--line-clr);
+      display: flex;
+      justify-content: center;
+    }
   }
 }
