@@ -131,7 +131,6 @@ b {
 
 aside {
   height: 100vh;
-  background: gray;
 }
 
 aside .top{
@@ -155,4 +154,26 @@ aside .logo{
 
 aside .close {
   display: none;
+}
+
+
+/* ====================================== SIDEBAR =================================*/
+aside .sidebar {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
+  position: relative;
+  top: 3rem;
+}
+
+aside h3 {
+  font-weight: 500;
+}
+
+aside .sidebar a{
+  display: flex;
+  color: var(--color-info-dark);
+  margin-left: 2rem;
+  gap: 1rem;
 }
