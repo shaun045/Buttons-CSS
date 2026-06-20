@@ -157,7 +157,7 @@ aside .close {
 }
 
 
-/* ====================================== SIDEBAR =================================*/
+/* =========================================== SIDEBAR ========================================*/
 aside .sidebar {
   background: white;
   display: flex;
@@ -176,4 +176,18 @@ aside .sidebar a{
   color: var(--color-info-dark);
   margin-left: 2rem;
   gap: 1rem;
+  align-items: center;
+  position: relative;
+  height: 3.7rem;
+  transition: all 300ms ease;
+}
+
+aside .sidebar a span {
+  font-size: 1.6rem;
+}
+
+aside .sidebar a:last-child{
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
 }
