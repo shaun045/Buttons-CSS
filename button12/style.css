@@ -265,3 +265,11 @@ main .insights > div {
 main .insights > div:hover {
   box-shadow: none;
 }
+
+main .insights > div span {
+  background: coral;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--color-white);
+  font-size: 2rem;
+}
