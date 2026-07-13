@@ -305,3 +305,13 @@ main .insights .svg {
   width: 7rem;
   height: 7rem;
 }
+
+main .insights svg circle {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 14;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 110;
+  stroke-dashoffset: 92;
+}
