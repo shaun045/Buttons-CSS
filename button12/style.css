@@ -370,6 +370,13 @@ main table tbody td {
   color: var(--color-dark-variant);
 }
 
-main table tbody tr:last-child {
+main table tbody tr:last-child td {
   border: none;
+}
+
+main .recent-orders a{
+  text-align: center;
+  display: block;
+  margin: 1rem auto;
+  color: var(--color-primary);
 }
