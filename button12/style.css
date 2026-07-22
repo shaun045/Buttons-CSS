@@ -480,3 +480,16 @@ main .recent-orders a{
   box-shadow: var(--box-shadow);
   transition: all 300ms ease;
 }
+
+.right .sales-analytics .item:hover {
+  box-shadow: none;
+}
+
+.right .sales-analytics .item .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0;
+  width: 100%;
+}
+
