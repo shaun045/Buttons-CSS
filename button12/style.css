@@ -509,3 +509,11 @@ main .recent-orders a{
   background: var(--color-success);
 }
 
+.right .sales-analytics .add-product{
+  background-color: red;
+  border: 2px dashed var(--color-primary);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
