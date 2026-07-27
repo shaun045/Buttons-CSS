@@ -552,4 +552,21 @@ main .recent-orders a{
     position: relative;
     margin-top: 1.8rem;
   }
+
+  main .insights{
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  main .recent-orders{
+    width: 94%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2rem 0 0 8.8rem;
+  }
+
+  main .recent-orders table {
+    width: 84vw;
+  }
 }
