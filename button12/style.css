@@ -569,4 +569,33 @@ main .recent-orders a{
   main .recent-orders table {
     width: 83vw;
   }
+
+  main table thead tr th:last-child, 
+  main table thead tr th:first-child {
+    display: none;
+  }
+
+  main table tbody tr td:last-child, 
+  main table tbody tr td:first-child {
+    display: none;
+  }
+}
+
+
+/* =========================MEDIA QUERIES 2===================================*/
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  aside {
+    position: fixed;
+    left: 0;
+    background: var(--color-white);
+    width: 18rem;
+    z-index: 3;
+    box-shadow: 1rem 3rem 4rem var(--color-light);
+    height: 100vh;
+    padding-right: var(--card-padding);
+  }
 }
