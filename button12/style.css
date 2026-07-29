@@ -597,6 +597,7 @@ main .recent-orders a{
     box-shadow: 1rem 3rem 4rem var(--color-light);
     height: 100vh;
     padding-right: var(--card-padding);
+    display: none;
   }
 
   aside .logo {
@@ -625,4 +626,22 @@ main .recent-orders a{
     display: inline-block;
     cursor: pointer;
   }
+
+  main {
+    margin-top: 8rem;
+    padding: 0 1rem;
+  }
+
+  main .recent-orders{
+    position: relative;
+    margin: 3rem 0 0 0;
+    width: 100%;
+  }
+
+  main .recent-orders table {
+    width: 100%;
+    margin: 0;
+  }
+
+  
 }
