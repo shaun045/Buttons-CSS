@@ -620,4 +620,9 @@ main .recent-orders a{
     position: absolute;
     bottom: 5rem;
   }
+
+  aside .close {
+    display: inline-block;
+    cursor: pointer;
+  }
 }
