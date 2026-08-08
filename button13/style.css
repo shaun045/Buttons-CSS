@@ -8,3 +8,33 @@
   outline: 0;
   border: 0;
 }
+
+:root {
+  --color-primary: #0a8de4;
+  --color-gray-0: #fff;
+  --color-gray-100: #ecf2f6;
+  --color-gray-200: #d9dfe7;
+  --color-gray-300: #bdcad6;
+  --color-gray-400: #bbbbbb;
+  --color-gray-500: #9c9c9c;
+  --color-gray-600: #6a6a6a;
+  --color-gray-700: #4b5156;
+  --color-gray-800: #33373a;
+  --color-gray-900: #0f1316;
+
+  --radius-1: 0.3rem;
+  --radius-2: 0.6rem;
+  --radius-3: 0.9rem;
+  --radius-4: 1.5rem;
+  --radius-5: 2.2rem;
+
+  --transition: all 300ms ease;
+
+  --container-w-lg: 80%;
+  --container-w-md: 90%;
+  --container-w-sm: 92%;
+}
+
+body {
+  
+}
