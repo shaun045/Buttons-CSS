@@ -36,5 +36,10 @@
 }
 
 body {
-  
+  font-family: "Montserrat", sans-serif;
+  background: var(--color-gray-100);
+  color: var(--color-gray-900);
+  line-height: 1.6;
+  font-size: 0.9rem;
+  user-select: none;
 }
