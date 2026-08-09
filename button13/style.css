@@ -35,6 +35,7 @@
   --container-w-sm: 92%;
 }
 
+
 body {
   font-family: "Montserrat", sans-serif;
   background: var(--color-gray-100);
@@ -43,3 +44,16 @@ body {
   font-size: 0.9rem;
   user-select: none;
 }
+
+
+.contnainer {
+  width: var(--container-w-lg);
+  margin-inline: auto;
+}
+
+
+a {
+  color: var(--color-gray-900);
+  font-weight: 500;
+}
+
