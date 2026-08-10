@@ -94,3 +94,13 @@ h5 {
 h6 {
   font-size: 0.75rem;
 }
+
+.btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-3);
+  background: var(--color-gray-0);
+  color: var(--color-gray-900);
+  transition: var(--transition);
+}
