@@ -67,4 +67,14 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   line-height: 1.1;
+  color: var(--color-gray-900);
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  
 }
