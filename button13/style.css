@@ -109,3 +109,11 @@ h6 {
   background: var(--color-primary);
   color: var(--color-gray-0);
 }
+
+section {
+  padding: 8rem 0;
+}
+
+section:nth-of-type(odd) {
+  background: var(--color-gray-0);
+}
