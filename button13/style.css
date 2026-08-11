@@ -104,3 +104,8 @@ h6 {
   color: var(--color-gray-900);
   transition: var(--transition);
 }
+
+.btn.primary {
+  background: var(--color-primary);
+  color: var(--color-gray-0);
+}
