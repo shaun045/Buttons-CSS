@@ -117,3 +117,14 @@ section {
 section:nth-of-type(odd) {
   background: var(--color-gray-0);
 }
+
+
+.section__header {
+  text-align: center;
+  margin-inline: auto;
+  width: 60%;
+}
+
+.section__header p {
+  margin: 0.4rem 0 3rem;
+}
