@@ -128,3 +128,16 @@ section:nth-of-type(odd) {
 .section__header p {
   margin: 0.4rem 0 3rem;
 }
+
+
+/* FLOATING NAVIGATION */
+nav {
+  background: var(--color-gray-0);
+  padding: 0.6rem;
+  border-radius: var(--radius-4);
+  box-shadow: 0 2rem 2rem -1rem rgba(0, 0, 0, 0.2), 0 -1rem 1rem -1rem rgba(255, 255, 255, 0.15);
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
