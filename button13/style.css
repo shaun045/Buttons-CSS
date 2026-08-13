@@ -160,3 +160,8 @@ nav a {
   border-radius: var(--radius-3);
   transition: var(--transition);
 }
+
+nav a:hover, nav a.active {
+  background: var(--color-primary);
+  color: var(--color-gray-0);
+}
