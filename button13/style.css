@@ -149,3 +149,14 @@ nav {
   justify-content: space-between;
   gap: 0.8rem;
 }
+
+
+nav a {
+  width: 2.8rem;
+  aspect-ratio: 1/1;
+  background: var(--color-gray-100);
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-3);
+  transition: var(--transition);
+}
