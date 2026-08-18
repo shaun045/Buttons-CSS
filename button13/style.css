@@ -194,3 +194,20 @@ nav a:hover, nav a.active {
   margin: 6rem auto 1.5rem;
   /* opacity: 0; */
 }
+
+.mainHeader h2 {
+  margin: 0.5rem 0;
+}
+
+.mainHeader__cta {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.mainHeader__cta a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
