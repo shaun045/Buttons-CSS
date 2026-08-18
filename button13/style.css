@@ -185,3 +185,12 @@ nav a:hover, nav a.active {
   max-width: 80ch;
   margin-inline: auto;
 }
+
+.mainHeader__image {
+  width: 15rem;
+  height: 17rem;
+  border-radius: 7.5rem 7.5rem 3rem 3rem;
+  overflow: hidden;
+  margin: 6rem auto 1.5rem;
+  /* opacity: 0; */
+}
