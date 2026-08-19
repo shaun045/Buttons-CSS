@@ -211,3 +211,16 @@ nav a:hover, nav a.active {
   align-items: center;
   gap: 0.5rem;
 }
+
+.mainHeader__cta a i {
+  font-size: 1.3rem;
+}
+
+.header__socials {
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
