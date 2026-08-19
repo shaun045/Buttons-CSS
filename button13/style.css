@@ -244,4 +244,15 @@ nav a:hover, nav a.active {
   position: fixed;
   top: 2rem;
   right: 10%;
+  background: var(--color-gray-0);
+  color: var(--color-gray-900);
+  width: 2.7rem;
+  height: 2.7rem;
+  font-size: 1.3rem;
+  border-radius: var(--radius-3);
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  cursor: pointer;
+  transition: var(--transition);
 }
