@@ -11,3 +11,16 @@ themeBtn.addEventListener("click", () => {
     localStorage.setItem('portfolio__theme', '');
   }
 })
+
+
+
+// GET THEME FROM LOCAL STORAGE AND APPLY ON PAGE LOAD
+window.addEventListener('load', () => {
+  const saveTheme = localStorage.getItem('portfolio__theme') || ''
+  document.body.className = saveTheme
+  if (document.body.className == '') {
+    themeBtn.innerHTML = `<i class="ph ph-moon"></i>`
+  } else {
+    themeBtn.innerHTML = `<i class="ph ph-sun"></i>`
+  }
+})
