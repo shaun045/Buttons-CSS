@@ -6,9 +6,11 @@ themeBtn.addEventListener("click", () => {
   if (document.body.className == '') {
     document.body.className = 'dark'
     localStorage.setItem('portfolio__theme', 'dark');
+    themeBtn.innerHTML = `<i class="ph ph-sun"></i>`
   } else {
     document.body.className = ''
     localStorage.setItem('portfolio__theme', '');
+    themeBtn.innerHTML = `<i class="ph ph-moon"></i>`
   }
 })
 
