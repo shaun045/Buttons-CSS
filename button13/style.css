@@ -295,3 +295,13 @@ nav a:hover, nav a.active {
   background: var(--color-gray-900);
 
 }
+
+
+
+/* ABOUT SECTION */
+.about__container {
+  display: grid;
+  grid-template-columns: 26rem auto;
+  gap: 8rem;
+  align-items: center;
+}
