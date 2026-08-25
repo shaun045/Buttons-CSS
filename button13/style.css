@@ -305,3 +305,10 @@ nav a:hover, nav a.active {
   gap: 8rem;
   align-items: center;
 }
+
+
+.about__left {
+  aspect-ratio: 1/1;
+  border-radius: 5rem;
+  overflow: hidden;
+}
