@@ -330,3 +330,7 @@ nav a:hover, nav a.active {
   align-items: center;
   gap: 0.5rem;
 }
+
+.about__right a i {
+  font-size: 1.3rem;
+}
