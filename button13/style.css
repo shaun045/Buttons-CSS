@@ -318,3 +318,15 @@ nav a:hover, nav a.active {
   flex-direction: column;
   gap: 1.2rem;
 }
+
+
+.about__right h3 {
+  margin-bottom: 0.4rem;
+}
+
+.about__right a {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
