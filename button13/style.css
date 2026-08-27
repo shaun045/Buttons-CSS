@@ -344,6 +344,7 @@ nav a:hover, nav a.active {
 .process__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: start;
   gap: 4rem;
 }
 
@@ -354,6 +355,12 @@ nav a:hover, nav a.active {
   margin-top: 3rem;
 }
 
+.process ul li {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
 .process ul h1 {
   width: 7rem;
   aspect-ratio: 1/1;
@@ -362,4 +369,12 @@ nav a:hover, nav a.active {
   background: var(--color-primary);
   color: var(--color-gray-0);
   border-radius: var(--radius-4);
+}
+
+
+.process__right {
+  border-radius: 4rem;
+  overflow: hidden;
+  padding: 2rem;
+  background: white;
 }
