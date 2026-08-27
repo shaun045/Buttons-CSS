@@ -334,3 +334,32 @@ nav a:hover, nav a.active {
 .about__right a i {
   font-size: 1.3rem;
 }
+
+
+/* MY APPROACH */
+.process h2 {
+  margin-bottom: 0.4rem;
+}
+
+.process__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.process ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.process ul h1 {
+  width: 7rem;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+  background: var(--color-primary);
+  color: var(--color-gray-0);
+  border-radius: var(--radius-4);
+}
