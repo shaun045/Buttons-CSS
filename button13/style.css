@@ -368,7 +368,11 @@ nav a:hover, nav a.active {
   place-items: center;
   background: var(--color-primary);
   color: var(--color-gray-0);
-  border-radius: var(--radius-4);
+  border-radius: var(--radius-3);
+}
+
+.process h5 {
+  margin-bottom: 0.3rem;
 }
 
 
