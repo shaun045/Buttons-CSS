@@ -390,3 +390,10 @@ nav a:hover, nav a.active {
   grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
   gap: 5rem;
 }
+
+.portfolio__item {
+  background: var(--color-gray-100);
+  border-radius: var(--radius-4);
+  overflow: hidden;
+  transition: var(--transition);
+}
