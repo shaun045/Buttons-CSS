@@ -382,3 +382,11 @@ nav a:hover, nav a.active {
   padding: 2rem;
   background: white;
 }
+
+
+/* PORTFOLIO OR RECENT PROJECTS */
+.portfolio__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 5rem;
+}
