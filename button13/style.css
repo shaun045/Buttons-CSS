@@ -450,3 +450,16 @@ nav a:hover, nav a.active {
   z-index: 1;
   background: linear-gradient(90deg, var(--color-gray-100), transparent, transparent, transparent, transparent, transparent, transparent, var(--color-gray-100));
 }
+
+.testimonial {
+  background: var(--color-gray-0);
+  text-align: center;
+  padding: 1.5rem;
+  padding-top: 3.5rem;
+  border-radius: var(--radius-5);
+  font-size: 0.9rem;
+  width: 16rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 100%;
+}
