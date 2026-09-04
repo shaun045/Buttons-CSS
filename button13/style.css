@@ -462,4 +462,11 @@ nav a:hover, nav a.active {
   position: absolute;
   top: 2.5rem;
   left: 100%;
+  animation: animateTestimonial 30s linear infinite;
+}
+
+@keyframes animateTestimoninal {
+  to {
+    left: -16rem;
+  }
 }
