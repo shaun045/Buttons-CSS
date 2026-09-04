@@ -470,3 +470,8 @@ nav a:hover, nav a.active {
     left: -16rem;
   }
 }
+
+
+.testimonials__list:hover .testimonial {
+  animation-play-state: paused;
+}
