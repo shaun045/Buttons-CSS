@@ -471,7 +471,19 @@ nav a:hover, nav a.active {
   }
 }
 
-
 .testimonials__list:hover .testimonial {
   animation-play-state: paused;
+}
+
+.testimonial__image {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  margin-inline: 1.7rem;
+  overflow: hidden;
+  position: absolute;
+  top: -2.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0.4rem solid var(--color-gray-0);
+  box-shadow: 0 2rem 1.5rem -1rem var(--color-gray-300);
 }
