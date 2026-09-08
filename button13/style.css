@@ -543,3 +543,14 @@ nav a:hover, nav a.active {
   gap: 1.2rem;
   width: fit-content;
 }
+
+.contact__menu {
+  width: 3rem;
+  aspect-ratio: 1/1;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-3);
+  color: var(--color-gray-0);
+  font-size: 1.3rem;
+}
