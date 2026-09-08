@@ -517,3 +517,29 @@ nav a:hover, nav a.active {
   margin: 0.5rem 0 1.2rem;
   font-weight: 500;
 }
+
+
+/*CONTACT */
+.contact__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+.contact__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.contact__container article p {
+  margin-top: 0.5rem;
+}
+
+.contact__menu a {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  width: fit-content;
+}
