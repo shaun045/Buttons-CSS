@@ -554,3 +554,7 @@ nav a:hover, nav a.active {
   color: var(--color-gray-0);
   font-size: 1.3rem;
 }
+
+.contact__menu a h5 {
+  margin-bottom: 0.5rem;
+}
