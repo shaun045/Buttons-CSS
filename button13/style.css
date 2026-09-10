@@ -572,3 +572,8 @@ form input, form textarea {
   resize: none;
   border-radius: var(--radius-2);
 }
+
+form label {
+  margin: 0.5rem 1rem;
+  display: inline-block;
+}
