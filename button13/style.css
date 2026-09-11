@@ -577,3 +577,20 @@ form label {
   margin: 0.5rem 1rem;
   display: inline-block;
 }
+
+
+/* FOOTER */
+footer {
+  padding-top: 5rem;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__sitemap {
+  display: flex;
+  gap: 3rem;
+}
