@@ -594,3 +594,20 @@ footer {
   display: flex;
   gap: 3rem;
 }
+
+.footer__socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer__socials a {
+  background: var(--color-gray-0);
+  color: var(--color-gray-900);
+  display: grid;
+  place-items: center;
+  height: 2.4rem;
+  aspect-ratio: 1/1;
+  transition: var(--transition);
+  border-radius: 0.7rem;
+}
