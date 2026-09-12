@@ -617,3 +617,10 @@ footer {
   background: var(--color-gray-900);
 }
 
+footer .copyright {
+  background: var(--color-gray-200);
+  display: block;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 1.2rem 0;
+}
