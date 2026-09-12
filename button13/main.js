@@ -1,4 +1,13 @@
 
+const navMenu = document.querySelectorAll('nav a')
+
+navMenu.forEach(item => {
+  item.addEventListener('click', () => {
+    item.classList.add('active')
+  })
+})
+
+
 
 // CHANGE AND SAVE THEME TO LOCAL STORAGE
 const themeBtn = document.querySelector(".theme__btn");
