@@ -611,3 +611,9 @@ footer {
   transition: var(--transition);
   border-radius: 0.7rem;
 }
+
+.footer__socials a:hover {
+  color: var(--color-gray-0);
+  background: var(--color-gray-900);
+}
+
