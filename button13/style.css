@@ -625,3 +625,14 @@ footer .copyright {
   padding: 1.2rem 0;
 }
 
+
+/* QUERIES FOR TABLETS */
+@media(max-width: 960px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .container {
+    width: var(--container-w-md);
+  }
+}
