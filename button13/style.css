@@ -664,4 +664,11 @@ footer .copyright {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
+
+  .about__left {
+    width: 60vmin;
+    margin-inline: auto;
+  }
+
+  
 }
