@@ -691,4 +691,24 @@ footer .copyright {
     gap: 4rem 2rem;
     padding-bottom: 3rem;
   }
+
+  .testimonials__list::before {
+    background: transparent;
+  }
+
+  .testimonial {
+    position: relative;
+    animation: none;
+    left: 0;
+    width: fit-content;
+  }
+
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer__sitemap {
+    gap: 1rem;
+  }
 }
