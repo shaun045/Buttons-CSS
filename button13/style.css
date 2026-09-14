@@ -635,4 +635,33 @@ footer .copyright {
   .container {
     width: var(--container-w-md);
   }
+
+  section {
+    padding-block: 6rem;
+  }
+
+  .section__header {
+    width: var(--container-w-md);
+  }
+
+  .mainHeader {
+    height: 74vh;
+  }
+
+  .mainHeader p {
+    width: 100%;
+  }
+
+  .theme__btn {
+    right: 5%;
+  }
+
+  .header__socials {
+    display: none;
+  }
+
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
