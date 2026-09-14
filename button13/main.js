@@ -1,6 +1,12 @@
 
 const navMenu = document.querySelectorAll('nav a')
 
+const removeActiveClass = () => {
+  navMenu.forEach(item => {
+    item.classList.remove('active')
+  })
+}
+
 navMenu.forEach(item => {
   item.addEventListener('click', () => {
     item.classList.add('active')
