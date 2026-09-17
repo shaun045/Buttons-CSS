@@ -712,3 +712,32 @@ footer .copyright {
     gap: 1rem;
   }
 }
+
+
+
+/* QUERIES FOR MOBILE PHONES */
+@media(max-width: 600px) {
+  .container {
+    width: var(--container-w-sm);
+  }
+
+  .theme__btn {
+    right: 4%;
+  }
+
+  .section__header {
+    width: var(--container-w-sm);
+  }
+
+  .mainHeader {
+    min-height: 100vh;
+  }
+
+  .mainHeader__image {
+    margin-top: 3rem;
+  }
+
+  .mainHeader p {
+    width: 100%;
+  }
+}
