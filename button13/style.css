@@ -721,10 +721,6 @@ footer .copyright {
     width: var(--container-w-sm);
   }
 
-  .theme__btn {
-    right: 4%;
-  }
-
   .section__header {
     width: var(--container-w-sm);
   }
@@ -739,5 +735,29 @@ footer .copyright {
 
   .mainHeader p {
     width: 100%;
+  }
+
+  .theme__btn {
+    right: 4%;
+  }
+
+  .about__left {
+    width: 100%;
+  }
+
+  .process ul {
+    gap: 1.5rem;
+  }
+
+  .process li {
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--color-gray-0);
+    padding: 1rem;
+    border-radius: var(--radius-4);
+  }
+
+  .process li h1 {
+    width: 4rem;
   }
 }
