@@ -17,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20%px 10%;
-  background: yellowgreen;
+  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +40,7 @@ body {
   transition: .3s;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a.active {
   color: #00abf0;
 }
