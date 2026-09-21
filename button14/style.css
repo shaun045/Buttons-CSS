@@ -9,6 +9,7 @@
 
 body {
   background: #081b29;
+  color: #ededed;
 }
 
 .header {
@@ -43,4 +44,11 @@ body {
 .navbar a:hover,
 .navbar a.active {
   color: #00abf0;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
 }
