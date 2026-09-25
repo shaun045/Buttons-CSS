@@ -183,3 +183,13 @@ color: #081b29;
 .home-sci a:hover::before {
   width: 100%;
 }
+
+.home-imgHover {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 500px;
+  height: 100%;
+  background: transparent;
+  border: 2px solid red;
+}
