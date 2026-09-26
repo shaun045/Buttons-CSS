@@ -192,4 +192,10 @@ color: #081b29;
   height: 100%;
   background: transparent;
   border: 2px solid red;
+  transition: 3s;
+}
+
+.home-imgHover:hover {
+  background: #081b29;
+  opacity: .8;
 }
