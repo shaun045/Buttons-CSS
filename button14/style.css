@@ -270,6 +270,9 @@ body {
   height: 100%;
   background: transparent;
   transition: 3s;
+  animation: manipActiveHover .1s forwards;
+  animation: delay 4s;
+  pointer-events: none;
 }
 
 .home-imgHover:hover {
@@ -277,22 +280,28 @@ body {
   opacity: .8;
 }
 
-.home-imgHover::before {
+.home-imgHover::after {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 120%;
   height: 100%;
   background: #081b29;
   animation: showRight 1s ease forwards;
   animation-delay: 3s;
-  z-index: 2;
+  z-index: 100;
 }
 
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
   100% {
     width: 0;
+  }
+}
+
+@keyframes manipActiveHover {
+  100% {
+    pointer-events: auto;
   }
 }
