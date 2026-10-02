@@ -55,5 +55,25 @@ body {
   height: 56px;
   display: flex;
   align-items: center;
+  color: var(--blue);
+}
+
+#sidebar .brand .bx {
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#sidebar .side-menu {
+  width: 100%;
+  margin-top: 48px;
+}
+
+#sidebar .side-menu li {
+  height: 48px;
+  background: var(--gray);
+  margin-left: 6px;
+  border-radius: 48px 0 0 48px;
+  padding: 4px;
 }
 /* SIDEBAR */
