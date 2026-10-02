@@ -71,10 +71,40 @@ body {
 
 #sidebar .side-menu li {
   height: 48px;
-  background: var(--gray);
+  background: transparent;
   margin-left: 6px;
   border-radius: 48px 0 0 48px;
   padding: 4px;
+}
+
+#sidebar .side-menu li.active {
+  background: var(--gray);
+  position: relative;
+  z-index: 100;
+}
+
+#sidebar .side-menu li.active::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: -40px;
+  right: 0;
+  box-shadow: 20px 20px 0 var(--gray);
+  z-index: -1;
+}
+
+#sidebar .side-menu li.active::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: -40px;
+  right: 0;
+  box-shadow: 20px -20px 0 var(--gray);
+  z-index: -1;
 }
 
 #sidebar .side-menu li a {
@@ -86,6 +116,10 @@ body {
   border-radius: 48px;
   font-size: 16px;
   color: var(--dark);
+}
+
+#sidebar .side-menu.top li a:hover {
+  color: var(--blue);
 }
 
 #sidebar .side-menu li a .bx {
