@@ -136,3 +136,29 @@ body {
   justify-content: center;
 }
 /* SIDEBAR */
+
+
+/* CONTENT */
+#content {
+  position: relative;
+  width: calc(100% - 280px);
+  left: 280px;
+}
+
+
+/* NAVBAR */
+#content nav {
+  height: 56px;
+  background: var(--light);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+  font-family: var(--lato);
+}
+
+#content nav a {
+  color: var(--dark);
+}
+/* NAVBAR */
+/* CONTENT */
