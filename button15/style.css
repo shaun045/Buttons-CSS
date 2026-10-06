@@ -160,5 +160,18 @@ body {
 #content nav a {
   color: var(--dark);
 }
+
+#content nav .bx.bx-menu {
+  cursor: pointer;
+}
+
+#content nav .nav-link {
+  font-size: 16px;
+  transition: .3s ease;
+}
+
+#content nav .nav-link:hover {
+  color: var(--blue);
+}
 /* NAVBAR */
 /* CONTENT */
