@@ -173,5 +173,16 @@ body {
 #content nav .nav-link:hover {
   color: var(--blue);
 }
+
+#content nav form {
+  max-width: 400px;
+  width: 100%;
+}
+
+#content nav form .form-input {
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
 /* NAVBAR */
 /* CONTENT */
