@@ -157,6 +157,7 @@ body {
   font-family: var(--lato);
 }
 
+
 #content nav a {
   color: var(--dark);
 }
@@ -231,6 +232,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#content nav .profile img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 /* NAVBAR */
 /* CONTENT */
