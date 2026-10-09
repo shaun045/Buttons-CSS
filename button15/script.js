@@ -16,3 +16,8 @@ allSideMenu.forEach(item => {
 // TOGGLE SIDEBAR
 const menuBar = document.querySelector('#content nnav .bx.bx-menu');
 const sideBar = document.getElementById('sidebar');
+
+
+if (window.innerWidth < 768) {
+  sideBar.classList.add('hide');
+}

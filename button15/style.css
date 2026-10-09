@@ -276,4 +276,23 @@ body {
     #content {
       width: calc(100% - 60px);
     }
+    
+    #content nav .nav-link {
+      display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    #content nav form .form-input input {
+      display: none;
+    }
+    #content nav form .form-input button {
+      width: auto;
+      height: auto;
+      background: transparent;
+      border-radius: none;
+      color: var(--dar);
+    }
 }
