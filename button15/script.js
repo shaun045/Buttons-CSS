@@ -12,3 +12,7 @@ allSideMenu.forEach(item => {
     li.classList.add('active');
   })
 });
+
+// TOGGLE SIDEBAR
+const menuBar = document.querySelector('#content nnav .bx.bx-menu');
+const sideBar = document.getElementById('sidebar');

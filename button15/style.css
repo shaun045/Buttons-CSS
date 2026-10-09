@@ -47,6 +47,12 @@ body {
   background: var(--light);
   z-index: 1000;
   font-family: var(--lato);
+  transition: .3s ease;
+  overflow: hidden;
+}
+
+#sidebar.hide {
+  width: 60px;
 }
 
 #sidebar .brand {
@@ -83,9 +89,6 @@ body {
   
 }
 
-#sidebar .side-menu li.active a {
-  color: var(--blue);
-}
 
 #sidebar .side-menu li.active::before {
   content: '';
@@ -120,6 +123,17 @@ body {
   border-radius: 48px;
   font-size: 16px;
   color: var(--dark);
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+#sidebar.hide .side-menu li.active a {
+  color: var(--blue);
+}
+
+#sidebar.hide .side-menu li a {
+  width: calc(48px - (4px * 2));
+  transition: width .3s ease;
 }
 
 #sidebar .side-menu li a.logout {
@@ -143,6 +157,11 @@ body {
   position: relative;
   width: calc(100% - 280px);
   left: 280px;
+}
+
+#sidebar.hide ~ #content {
+  width: calc(100% - 60px);
+  left: 60px;
 }
 
 
