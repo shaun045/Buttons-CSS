@@ -20,4 +20,13 @@ const sideBar = document.getElementById('sidebar');
 
 if (window.innerWidth < 768) {
   sideBar.classList.add('hide');
+} else if (window.innerWidth < 576) {
+  const searchButton = document.querySelector('#content nav form .form-input button');
+  const searchForm = document.querySelector('#content nav form');
+
+  searchButton.addEventListener('click', function (e) {
+    e.preventDefault();
+    searchForm.classList.toggle('show');
+  })
+
 }

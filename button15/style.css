@@ -293,6 +293,6 @@ body {
       height: auto;
       background: transparent;
       border-radius: none;
-      color: var(--dar);
+      color: var(--dark);
     }
 }
