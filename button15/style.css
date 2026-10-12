@@ -299,6 +299,7 @@ body {
 
     #content nav form.show .form-input input {
       display: block;
+      width: 100%;
     }
 
     #content nav form.show .form-input button {
@@ -307,5 +308,10 @@ body {
       border-radius: 0 36px 36px 0;
       color: var(--light);
       background: var(--red);
+    }
+
+    #content nav form.show ~ .notification,
+    #content nav form.show ~ .profile {
+      display: none;
     }
 }
