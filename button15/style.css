@@ -270,6 +270,26 @@ body {
   border-radius: 50%;
 }
 /* NAVBAR */
+
+/* MAIN */
+#content main {
+  width: 100%;
+  padding: 36px 24px;
+  font-family: var(--poppins);
+}
+
+#content main .head-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* MAIN */
+
+
+
 /* CONTENT */
 
 @media screen and (max-width: 768px) {
