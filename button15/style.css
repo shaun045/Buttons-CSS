@@ -326,6 +326,13 @@ body {
   font-weight: 500;
 }
 
+
+#content main .box-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 24px;
+  margin-top: 36px;
+}
 /* MAIN */
 
 
