@@ -333,6 +333,15 @@ body {
   grid-gap: 24px;
   margin-top: 36px;
 }
+
+#content main .box-info li {
+  padding: 24px;
+  background: var(--light);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+}
 /* MAIN */
 
 
