@@ -342,6 +342,16 @@ body {
   align-items: center;
   grid-gap: 24px;
 }
+
+#content main .box-info li .bx {
+  width: 80px;
+  height: 80px;
+  background: var(--gray);
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* MAIN */
 
 
