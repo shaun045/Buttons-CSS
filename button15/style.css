@@ -383,6 +383,15 @@ body {
   padding: 24px;
 }
 
+#content main .table-data .order {
+  flex-grow: 1;
+  flex-basis: 500px;
+}
+
+#content main .table-data .todo {
+  flex-grow: 1;
+  flex-basis: 280px;
+}
 
 
 /* MAIN */
