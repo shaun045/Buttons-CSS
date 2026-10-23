@@ -368,6 +368,11 @@ body {
   color: var(--orange);
 }
 
+#content main .box-info li .text h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 
 #content main .table-data {
   display: flex;
@@ -394,6 +399,7 @@ body {
   margin-right: auto;
   font-size: 24px;
   font-weight: 600;
+  color: var(--dark);
 }
 
 #content main .table-data .order {
@@ -403,6 +409,11 @@ body {
 
 #content main .table-data .order table {
   width: 100%;
+}
+
+#content main .table-data .order table th {
+  padding-bottom: 12px;
+  font-size: 12px;
 }
 
 #content main .table-data .todo {
