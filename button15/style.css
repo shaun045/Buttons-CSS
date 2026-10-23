@@ -380,6 +380,7 @@ body {
   grid-gap: 24px;
   margin-top: 24px;
   width: 100%;
+
 }
 
 #content main .table-data > div {
@@ -409,11 +410,23 @@ body {
 
 #content main .table-data .order table {
   width: 100%;
+  border-collapse: collapse;
 }
 
 #content main .table-data .order table th {
   padding-bottom: 12px;
-  font-size: 12px;
+  font-size: 13px;
+  text-align: left;
+  border-bottom: 1px solid var(--gray);
+}
+
+#content main .table-data .order table td {
+  padding: 16px 0;
+}
+
+#content main .table-data .order table tr td:first-child {
+  display: flex;
+  align-items: center;
 }
 
 #content main .table-data .todo {
