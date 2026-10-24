@@ -396,6 +396,14 @@ body {
   margin-bottom: 24px;
 }
 
+#content main .table-data .head .bx {
+  cursor: pointer;
+}
+
+#content main .table-data .head .bxf {
+  cursor: pointer;
+}
+
 #content main .table-data .head h3 {
   margin-right: auto;
   font-size: 24px;
@@ -428,6 +436,7 @@ body {
   display: flex;
   align-items: center;
   grid-gap: 12px;
+  padding-left: 6px;
 }
 
 #content main .table-data .order table td img {
@@ -437,10 +446,19 @@ body {
   object-fit: cover;
 }
 
+#content main .table-data .order table tbody tr:hover {
+  background: var(--gray);
+}
+
 #content main .table-data .todo {
   flex-grow: 1;
   flex-basis: 280px;
 }
+
+#content main .table-data .todo .todo-list {
+  width: 100%;
+}
+
 
 
 
