@@ -468,6 +468,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-left: 10px solid;
+}
+
+#content main .table-data .todo .todo-list li.completed {
+  border-left-color: 10px solid var(--blue);
 }
 
 #content main .table-data .todo .todo-list li:last-child {
