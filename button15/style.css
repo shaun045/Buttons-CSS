@@ -32,8 +32,13 @@ li {
   --light-orange: #FFE0D3;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   background: var(--gray);
+  overflow-x: hidden;
 }
 
 
@@ -475,11 +480,12 @@ body {
 
 #content main .table-data .todo {
   flex-grow: 1;
-  flex-basis: 280px;
+  flex-basis: 300px;
 }
 
 #content main .table-data .todo .todo-list {
   width: 100%;
+  min-width: 420px;
 }
 
 #content main .table-data .todo .todo-list li {
@@ -522,6 +528,10 @@ body {
 /* CONTENT */
 
 @media screen and (max-width: 768px) {
+    #sidebar {
+      width: 200px;
+    }
+
     #content {
       width: calc(100% - 60px);
     }
