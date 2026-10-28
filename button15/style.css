@@ -132,7 +132,7 @@ body {
   overflow-x: hidden;
 }
 
-#sidebar.hide .side-menu li.active a {
+#sidebar .side-menu li.active a {
   color: var(--blue);
 }
 
@@ -154,6 +154,8 @@ body {
   display: flex;
   justify-content: center;
 }
+
+
 /* SIDEBAR */
 
 
@@ -433,7 +435,6 @@ body {
 #content main .table-data .order table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 420px;
 }
 
 #content main .table-data .order table th {
@@ -585,5 +586,17 @@ body {
     #content nav form.show ~ .notification,
     #content nav form.show ~ .profile {
       display: none;
+    }
+
+    #content main .box-info {
+      grid-template-columns: 1fr;
+    }
+
+    #content main .table-data .head {
+      min-width: 420px;
+    }
+
+    #content main .table-data .order table {
+      width: 100%;
     }
 }
