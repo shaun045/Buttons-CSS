@@ -67,6 +67,13 @@ body {
   display: flex;
   align-items: center;
   color: var(--blue);
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: var(--light);
+  z-index: 500;
+  padding-bottom: 20px;
+  box-sizing: content-box;
 }
 
 #sidebar .brand .bx {
